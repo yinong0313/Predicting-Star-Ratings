@@ -12,7 +12,7 @@ More detail of how the code work can be found in `project_details.pdf`
 - A custom estimator that based solely on the city of a venue (average star of a city)
 
 ## Model 2: lat_long_model.
-- Use the latitude and longitude of a venue as features to understand neighborhood dynamics
+- The latitude and longitude of a venue are used as features to understand neighborhood dynamics
 - A ColumnSelectTransformer is used to transform latitude and longitude values to an array containing selected keys of feature matrix
 
 ## Model 3: category_model.
